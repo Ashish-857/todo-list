@@ -1,0 +1,3 @@
+Date.now() returns the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC. For example, Date.now() might return something like 1655648135000.
+This value is then assigned to the id property of the new todo item.
+When you add a new todo, it creates an object with a unique id, ensuring each todo can be individually identified and managed.
